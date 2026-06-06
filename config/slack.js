@@ -1,5 +1,5 @@
 require("dotenv").config();
-const { App } = require("@slack/bolt");satisfies
+const { App } = require("@slack/bolt");
 
 if (!process.env.SLACK_BOT_TOKEN || !process.env.SLACK_APP_TOKEN) {
     console.error("Error: Missing environment variables.");
